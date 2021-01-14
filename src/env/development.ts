@@ -2,25 +2,25 @@
 
 export const envConfig: any = {
     database: {
-        DB_URI: '127.0.0.1',
-        DB_PORT: 3306,
-        DB_USER: 'root',
-        DB_PASS: 'gica123',
-        DB_MAIN: 'chiara_hnos'
+        DB_URI: '',
+        DB_PORT: ,
+        DB_USER: '',
+        DB_PASS: '',
+        DB_MAIN: ''
     },
-    secretKey: "AC61E5D9696B543E1B139FFF37E064E3",
+    secretKey: "",
     emailData: {
-      user: 'chiarahnosweb@gmail.com',
-      pass: '5549960F3B9066D577CEFA06EFBCE19B',
-      from: 'federicocoraglio@gmail.com',
-      service: 'Gmail',
+      user: '',
+      pass: '',
+      from: '',
+      service: '',
     },
     ftpserver: {
-      host: 'estudiodellarossa.atwebpages.com',
+      host: '',
       port: 21,
-      user: '1711021',
-      password: 'example987654321',
-      logging: 'basic',
-      filePath: '/estudiodellarossa.atwebpages.com/test'
+      user: '',
+      password: '',
+      logging: '',
+      filePath: ''
     }
 };
